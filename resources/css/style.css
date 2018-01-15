@@ -164,3 +164,30 @@ justify-content: center;
 .site-container .logo-and-company-container {
   padding-left: 4rem;
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .header .site-container {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .hero {
+      margin-top: -4rem;
+      height: 22rem;
+  }
+  .featured-container {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .featured-container h1 {
+    padding: 0.75rem 4rem;
+    line-height: 1.2;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width) {
+
+}
