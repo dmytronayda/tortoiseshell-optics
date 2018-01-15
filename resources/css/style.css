@@ -1,0 +1,86 @@
+html,
+body {
+  font-family:'Karla', sans-serif;
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+
+h1,
+h3 {
+  font-family:'Anton', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.site-container {
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.header .site-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+.logo-and-company-container {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.logo {
+  padding-right: 1rem;
+}
+.logo img{
+  height: 1.5rem;
+}
+.nav-container {
+  display: flex;
+  padding-right: 2rem;
+}
+.nav-item {
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.hero {
+  background-image: url("./../pictures/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-top: -5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .site-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.featured-container {
+  background-color: white;
+  margin-right: -2rem;
+  justify-content: flex-end;
+}
+
+.featured-container h1 {
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+}
