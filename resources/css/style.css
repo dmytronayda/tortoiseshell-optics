@@ -33,8 +33,6 @@ h3 {
   margin-top: 1rem;
   background-color: cadetblue;
   color: white;
-  position: fixed;
-  z-index: 5; 
 }
 
 .logo-and-company-container {
@@ -146,4 +144,23 @@ h3 {
 .text {
   padding-top: 1rem;
 
+}
+
+
+.footer-container {
+display: flex;
+justify-content: center;
+}
+
+.footer-container .site-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+  height: 8rem;
+  margin-top: 5rem;
+}
+
+.site-container .logo-and-company-container {
+  padding-left: 4rem;
 }
