@@ -84,3 +84,31 @@ h3 {
   padding: 1.5rem 5rem;
   line-height: 1.2;
 }
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-container .site-container{
+  display: flex;
+  justify-content: center;
+}
+
+.info-item {
+  padding: 3rem 5rem;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.icon img{
+  width: 5rem;
+}
+
+.one img{
+  width: 3.5rem;
+}
